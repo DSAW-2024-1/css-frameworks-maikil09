@@ -1,4 +1,4 @@
-/* Tu CSS personalizado */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,12 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff; /* White */
+    background-color: #ffffff;
 }
 
 .global-score-card {
     width: 22%;
-    color: #ffffff; /* White */
+    color: #ffffff; 
 }
 
 h2 {
@@ -53,7 +53,7 @@ h2 {
 }
 
 .result {
-    background-color: #f0f4ff; /* Pale-blue */
+    background-color: #f0f4ff; 
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
@@ -61,19 +61,19 @@ h2 {
 }
 
 .reaction {
-    color: #ff5f5f; /* Light-red */
+    color: #ff5f5f; 
 }
 
 .memory {
-    color: #ffae42; /* Orangey-yellow */
+    color: #ffae42; 
 }
 
 .verbal {
-    color: #5fd9a7; /* Green-teal */
+    color: #5fd9a7; 
 }
 
 .visual {
-    color: #5a9ef5; /* Cobalt-blue */
+    color: #5a9ef5;
 }
 
 .on-100 {
