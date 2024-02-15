@@ -5,29 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
-
-  </body>
+  <body class="bg-blue-50 min-h-screen flex items-center justify-center">
+    <div class="card bg-white shadow-xl rounded-2xl lg:w-96 w-full">
+        <div class="card-container flex flex-col lg:flex-row">
+            <section class="result lg:w-1/2 p-6 rounded-2xl bg-gradient-to-b from-blue-300 to-blue-400 flex flex-col items-center">
+                <h3 class="title text-white text-xl font-semibold mb-4">Your Result</h3>
+                <div class="circle bg-gradient-to-b from-primercolor w-32 h-32 rounded-full flex flex-col items-center justify-center mb-4">
+                    <h1 class="text-white text-5xl font-bold">76</h1>
+                    <p class="text-white">of 100</p>
+                </div>
+                <b class="text-white text-lg">Great</b>
+                <p class="info text-white mt-2">
+                    You scored higher than 65% of the people who have taken these tests.
+                </p>
+            </section>
+            <section class="summary lg:w-1/2 p-6 flex flex-col gap-4">
+                <h3 class="title text-black text-xl font-semibold">Summary</h3>
+                <div class="rows flex flex-col gap-2">
+                    <div class="row bg-red-200 rounded-lg flex justify-between items-center p-4">
+                        <div class="badge flex items-center gap-2">
+                            <img src="/assets/images/icon-reaction.svg" alt="icon"/>
+                            <b class="text-red-600">Reaction</b>
+                        </div>
+                        <p class="font-semibold text-gray-700"><b>80</b> / 100</p>
+                    </div>
+                    <div class="row bg-yellow-200 rounded-lg flex justify-between items-center p-4">
+                        <div class="badge flex items-center gap-2">
+                            <img src="/assets/images/icon-memory.svg" alt="icon"/>
+                            <b class="text-yellow-600">Memory</b>
+                        </div>
+                        <p class="font-semibold text-gray-700"><b>92</b> / 100</p>
+                    </div>
+                    <div class="row bg-green-200 rounded-lg flex justify-between items-center p-4">
+                        <div class="badge flex items-center gap-2">
+                            <img src="/assets/images/icon-verbal.svg" alt="icon"/>
+                            <b class="text-green-600">Verbal</b>
+                        </div>
+                        <p class="font-semibold text-gray-700"><b>61</b> / 100</p>
+                    </div>
+                    <div class="row bg-blue-200 rounded-lg flex justify-between items-center p-4">
+                        <div class="badge flex items-center gap-2">
+                            <img src="/assets/images/icon-visual.svg" alt="icon"/>
+                            <b class="text-blue-600">Visual</b>
+                        </div>
+                        <p class="font-semibold text-gray-700"><b>72</b> / 100</p>
+                    </div>
+                </div>
+                <button
+                    class="btn bg-gray-800 text-white px-4 py-2 rounded-full mt-auto hover:bg-blue-300 hover:text-gray-800">
+                    Continue
+                </button>
+            </section>
+        </div>
+    </div>
+    </body>
 </html>

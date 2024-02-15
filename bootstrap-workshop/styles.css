@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.global-score-card {
+    width: 22%;
+    color: #ffffff; 
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+.global-score-card .global-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.global-score span {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.description {
+    width: 80%;
+    padding: 15px;
+}
+
+.description span {
+    font-size: 2em;
+    padding: 8px;
+}
+
+.score {
+    width: 22%;
+    margin-left: 8px;
+}
+
+.result {
+    background-color: #f0f4ff; 
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.reaction {
+    color: #ff5f5f; 
+}
+
+.memory {
+    color: #ffae42; 
+}
+
+.verbal {
+    color: #5fd9a7; 
+}
+
+.visual {
+    color: #5a9ef5;
+}
+
+.on-100 {
+    color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .global-score-card,
+    .score {
+        width: 100%;
+    }
+}
+.global-score-card{
+    background-color: hsl(241, 81%, 54%);
+}
+.global-score{
+    background-color: #187abb;
+
+}
+.btn{
+    background-color: rgb(114, 77, 201);
+
+}
