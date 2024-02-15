@@ -39,6 +39,25 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 | Adaptabilidad del diseño          | 2          |
 | Total                             | 5          |
 
+## Desarrollo taller
+
+#### bootstrap
+- desktop
+
+<img src="/assets/images/desktop bootstrap.png">
+
+- mobile
+
+<img src="/assets/images/phone bootstrap.png">
+
+#### tailwind
+- Desktop
+
+<img src="/assets/images/Desktop tailwind.png">
+
+- mobile
+
+<img src="/assets/images/phone tailwind.png">
 
 ## Recursos adicionales
 
